@@ -1,0 +1,18 @@
+-->Introduction to Objects:
+    In JavaScript,Object is most important data-type and forms the building blocks for modern JavaScript. 
+    These objects are quite different from JavaScript’s primitive data-types- while these primitive data-types all store a single value each.
+-->Internal Representation:
+    To understand this rather abstract definition, let us look at an example of a JavaScript Object :
+    let school = {
+      name : " Ashram Public School",
+      location : "Kakinada",
+      established : "1971"
+      }
+      In the above example “name”, “location”, “established” are all “keys” 
+      and “Ashram Public School”, “Kakinada” and 1971 are values of these keys respectively.
+      
+      Each of these keys is referred to as properties of the object. 
+      An object in JavaScript may also have a function as a member, in which case it will be known as a method of that object.
+    
+    
+ 
