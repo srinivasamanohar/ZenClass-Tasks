@@ -1,0 +1,15 @@
+The function of Web Browser :
+-->to locate, retrieve and display content on the World Wide Web, 
+-->including Web pages, images, video and other files.
+
+The browser is the client run on a computer that contacts the Web server and requests information. 
+The Web server sends the information back to the Web browser which displays the results on the computer 
+or other Internet-enabled device that supports a browser.
+
+Primary components of a browser are:-
+
+1.User Interface – Consists of forward and back button, bookmarks, address bar etc.., along with the window that displays the requested page.
+2.Browser engine – It commands action between rendering engine and the user interface.
+3.Rendering engine – The main function of rendering engine is to display the content that is requested. 
+                   For example, if an HTML content is requested, the engine parses CSS and HTML and when the content is parsed, 
+                   it is displayed on the screen.
