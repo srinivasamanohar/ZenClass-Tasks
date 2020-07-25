@@ -8,4 +8,4 @@ for(let i=0;i<data["countries"].length;i++){
   data["countries"][i]["id"] = i+1
 }
 
-console.log(data);
+console.log(data)
