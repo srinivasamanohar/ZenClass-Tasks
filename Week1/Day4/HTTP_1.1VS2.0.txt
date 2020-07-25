@@ -1,0 +1,34 @@
+-->The Hypertext Transfer Protocol, or HTTP, is an application protocol ,a standard 
+   for communication on the World Wide Web since its invention in 1989. From the 
+   release of HTTP/1.1 in 1997 until recently, there have been few revisions to the protocol.
+-->In 2015, a reimagined version called HTTP/2 came into use, which offered several methods to decrease latency, 
+   especially when dealing with mobile platforms and server-intensive graphics and videos.
+
+-->Main goals of developing HTTP/2 was:
+    Protocol negotiation mechanism — protocol electing, eg. HTTP/1.1, HTTP/2 or other.
+    High-level compatibility with HTTP/1.1 — methods, status codes, URIs and header fields.
+    Page load speed improvements trough:
+    Compression of request headers
+    Binary protocol
+    HTTP/2 Server Push
+
+-->Binary Protocol :
+    HTTP1.x used to process text commands to complete request-response cycles.
+    
+    HTTP/2 will use binary commands (in 1s and 0s) to execute the same tasks. This attribute eases complications with framing and simplifies 
+    implementation of commands that were confusingly intermixed due to commands containing text and optional spaces.
+    
+    Benefits:
+      Low overhead in parsing data — a critical value proposition in HTTP/2 vs HTTP1.
+      Less prone to errors.
+      Lighter network footprint.
+      Effective network resource utilization.
+-->HTTP/2 Server Push :
+    This capability allows the server to send additional cacheable information 
+    to the client that isn’t requested but is anticipated in future requests.
+    
+    Benefits:
+      The client saves pushed resources in the cache.
+      The client can reuse these cached resources across different pages.
+      The server can multiplex pushed resources along with originally requested information within the same TCP connection.
+      The server can prioritize pushed resources — a key performance differentiator in HTTP/2 vs HTTP1.
