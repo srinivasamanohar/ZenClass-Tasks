@@ -1,0 +1,22 @@
+INTODUCTION:-
+Document Object Model (DOM) is a programming interface for HTML and XML documents.
+It defines the logical structure of documents and the way a document is accessed and manipulated.
+DOM represents the webpage in the structured hierarchical way which becomes easier for programmers and users to glide through the document.
+
+
+PROPERTIES OF DOM:-
+
+Window Object: Window Object is at always at top of hierarchy.
+Document object: When HTML document is loaded into a window, it becomes a document object.
+Form Object: It is represented by form tags.
+Link Objects: It is represented by link tags.
+Anchor Objects: It is represented by a href tags.
+Form Control Elements:: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.
+
+Methods of Document Object:-
+
+write(“string”): writes the given string on the document.
+getElementById(): returns the element having the given id value.
+getElementsByName(): returns all the elements having the given name value.
+getElementsByTagName(): returns all the elements having the given tag name.
+getElementsByClassName(): returns all the elements having the given class name.
