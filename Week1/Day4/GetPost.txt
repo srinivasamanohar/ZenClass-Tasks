@@ -1,0 +1,23 @@
+GET :
+
+-->GET is one of the most common HTTP methods,which is used to request data from a specified resource.
+-->Query string (name/value pairs) is sent in the URL of a GET request:
+-->GET requests can be:
+    can be cached.
+    can beremain in the browser history.
+    can be bookmarked.
+    should never be used when dealing with sensitive data.
+    have length restrictions.
+    are only used to request data.
+
+POST:
+
+-->POST is used to send data to a server to create/update a resource.
+-->The data sent to the server with POST is stored in the request body of the HTTP request.
+-->POST requests :
+      are never cached.
+      do not remain in the browser history.
+      cannot be bookmarked.
+      have no restrictions on data length.
+
+    
