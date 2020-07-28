@@ -1,0 +1,22 @@
+Types of Communication Errors which are invalid:
+
+-->No network connection: This error occurs due to different reasons, 
+                          the most common being a change in your configuration settings like your IP address, 
+                          which could cause your router to have problems connecting to the Internet.
+
+-->Server response error: HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+                                1.Informational responses (100–199),
+                                2.Successful responses (200–299),
+                                3.Redirects (300–399),
+                                4.Client errors (400–499),
+                                5.and Server errors (500–599).
+
+-->Throw an Error: When an error occurs, JavaScript will normally stop, and generate an error message.
+                   The technical term for this is: JavaScript will throw an error.
+                   The throw statement allows you to create a custom error.
+
+-->Fatal Vs Non-Fatal: Fatal is the which affects the code execution and work flow. 
+                      If it occur try to handle it, reload the page, inform the error message to user. 
+                      Non-Fatal is one which won’t affect the flow. Recovery is possible. 
+
