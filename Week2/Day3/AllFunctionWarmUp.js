@@ -165,6 +165,7 @@ var divisible = divisibleByFive(5);
 //Write a function called “isEven”.
 //Given a number, “isEven” returns whether it is even.
 
+
 function isEven(num){
         if((num%2)===0)
         {
@@ -231,6 +232,7 @@ function isSameLength(word1, word2){
 //Create a function to calculate the distance between two points 
 //defined by their x, y coordinates
 
+
 console.log(getDistance(100, 100, 400, 300));
 
 function getDistance(x1, y1, x2, y2)
@@ -255,6 +257,7 @@ function getNthElement(array,n){
     }
    }
    
+
 //Problem:
 //Write a function called “getProperty”.
 //Given an object and a key, “getProperty” returns the value of the property at the given key. If there is no property at the given key, it should return undefined.
@@ -271,7 +274,7 @@ var obj = {
         else{
             return "undefined"
         }
-   }
+    }
 
 
 //Problem:
@@ -286,6 +289,7 @@ var obj = {
         obj[key]=true;
    }
 
+
 //Problem:
 //Write a function called “removeProperty”.
 //Given an object and a key, “removeProperty” removes the given key from the given object.
@@ -294,7 +298,7 @@ var obj = {
 function removeProperty(obj, key){
     delete obj[key];
     return "undefined";
-   }
+}
 
 
 //Problem:
@@ -321,4 +325,146 @@ var ar2 = function countPositivesSumNegatives(arr) {
 console.log(ar2);
 
 
-   
+//Problem:
+//Create a function that receives an array of numbers and 
+//returns an array containing only the positive numbers
+
+function getPositives(ar)
+{
+    post = [];
+    for(let i=0 ; i<ar.length;i++)
+    {
+        if(ar[i]>0)
+        {
+            post.push(ar[i]);
+        }
+    }
+    return post;
+}
+
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+var ar2 = getPositives(ar);
+console.log(ar2);
+
+
+
+//Problem:
+//Write a function `powersOfTwo` which will return list of all powers of 2 from 0 to n 
+//(where n is an exponent).
+
+function powersOfTwo(n){
+  
+    res = Math.sqrt(n,2);
+    return res;
+  
+}
+
+
+
+//Problem:
+//Find the maximum number in an array of numbers
+
+function findMax(ar)
+{
+    return Math.max(...ar);
+}
+
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+var max = findMax(ar);
+console.log("Max: ", max);
+
+
+
+//Problem:
+//Print the first 100 prime numbers
+
+printPrimes(100);
+// Function prints the first nPrimes numbers
+function printPrimes(nPrimes)
+{
+ var n = 0;
+ var i = 2;
+ 
+ while(n < nPrimes)
+ {
+ if (isPrime(i))
+ {
+ console.log(n, " → ", i);
+ n++;
+ }
+ 
+ i++;
+ }
+}
+// Returns true if a number is prime
+function isPrime(n)
+{
+    for(let i=2; i<n;i++){
+        if(n%i==0) 
+        {
+            return 0;
+        }
+    }
+
+    return 1;
+}
+
+
+//Problem:
+//Create a function that will return in an array the first “nPrimes” prime numbers 
+//greater than a particular number “startAt”
+
+console.log(getPrimes(10, 100));
+
+function getPrimes(start, end){
+    let arr = [];
+    for(let i = start; i < end; i++){
+        if(isPrime(i)) 
+        { arr.push(i);
+        }
+    }
+    return arr;
+}
+
+
+
+//Problem:
+//Reverse a string
+var s = reverseString("JavaScript");
+
+console.log(s);
+
+function reverseString(s)
+{
+   temp = res.split("");
+   temp.reverse();
+   res = temp.join("");
+   return res;
+}
+
+
+
+
+//Problem:
+//Create a function that will merge two arrays and return the result as a new array
+
+var ar1 = [1, 2, 3];
+var ar2 = [4, 5, 6];
+var ar = mergeArrays(ar1, ar2);
+console.log(ar);
+
+function mergeArrays(ar1, ar2){
+    return ar1.concat(ar2);
+}
+
+
+
+//Problem:
+//Calculate the sum of numbers received in a comma delimited string
+
+console.log(sumCSV("1.5, 2.3, 3.1, 4, 5.5, 6, 7, 8, 9, 10.9"));
+function sumCSV(s)
+{
+    let array = s.split(',');
+    return array.reduce((acc, val) => acc+=val, 0);
+}
