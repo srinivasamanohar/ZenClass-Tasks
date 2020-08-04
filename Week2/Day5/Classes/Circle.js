@@ -28,11 +28,11 @@ class Circle{
     }
 }
 
-let mycircle = new Circle(15,"Red");
-console.log(mycircle)
-console.log("Radius:",mycircle.getRadius())
-console.log("Set Radius:",mycircle.setRadius(10))
-console.log("Color:",mycircle.getcolor())
-console.log("Set Color:",mycircle.setColor("black"))
-console.log("Area:",mycircle.getArea())
-console.log("String:",mycircle.toString())
+let circle = new Circle(15,"Red");
+console.log(circle)
+console.log("Radius:",circle.getRadius())
+console.log("Set Radius:",circle.setRadius(8))
+console.log("Color:",circle.getcolor())
+console.log("Set Color:",circle.setColor("blue"))
+console.log("Area:",circle.getArea())
+console.log("String:",circle.toString())
