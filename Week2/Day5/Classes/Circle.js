@@ -28,7 +28,7 @@ class Circle{
     }
 }
 
-let circle = new Circle(15,"Red");
+let circle = new Circle(15,"Green");
 console.log(circle)
 console.log("Radius:",circle.getRadius())
 console.log("Set Radius:",circle.setRadius(8))
