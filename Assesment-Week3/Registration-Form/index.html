@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+   <form onsubmit="myFunction()">
+       <div class="form-container">
+            <div style="font-size: 30px; position: relative; left:170px; padding-bottom:30px;">Registration form</div>
+            
+            <div class="input-container">
+                <label for="fullName">Full Name</label>
+                <i class="fas fa-user icon"></i>
+                <input  id="fullName" type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Address1">Address Line 1</label>
+                <i class="fa fa-address-book icon"></i>
+                <input  id="Address1" type="text" placeholder="Address Line 1" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Address2">Address Line 2</label>
+                <i class="fa fa-address-book icon"></i>
+                <input  id="Address2" type="text" placeholder="Address Line 1" required>
+            </div>
+            
+            <div class="input-container">
+                <label for="City">City</label>
+                <i class="fas fa-city icon"></i>
+                <input  id="City" type="text" placeholder="City" required>
+            </div>
+
+            <div class="input-container">
+                <label for="State">State/Province/State</label>
+                <i class="fas fa-map-marker icon"></i>
+                <input  id="State" type="text" placeholder="State/Province/State" required>
+            </div>
+
+            <div class="input-container">
+                <label for="PostalCode">Postal Code/ZIP</label>
+                <i class="material-icons icon">email</i>
+                <input  id="PostalCode" type="text" placeholder="Postal Code/ZIP" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Country">Country</label>
+                <i class="fa fa-globe icon"></i>
+                <input  id="Country" type="text" placeholder="Country" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Email">Email</label>
+                <i class="fas fa-user icon"></i>
+                <input  id="Email" type="text" placeholder="Email" required>
+            </div>
+
+            <div class="input-container">
+                <label for="PhoneNumber">Phone Number</label>
+                <i class="fas fa-mobile icon"></i>
+                <input  id="PhoneNumber" type="text" placeholder="Phone Number" required> 
+            </div>
+        <button>Submit</button>
+        </div>
+   </form>
+</body>
+<script>
+    function myFunction() {
+  alert("The form was submitted");
+}
+</script>
+</html>
