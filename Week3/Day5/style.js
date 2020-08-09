@@ -31,7 +31,7 @@ container.appendChild(header_div)
 // contact address
 let address_div = document.createElement('div')
 address_div.setAttribute('style','background-color:white;text-align:center;font-family:monospace;height:25px;font-size:15px;padding-top:10px;border-bottom:2px solid black;')
-address_div.innerText = "Kakinada India | +91 855580886 | manoharkandadai98@gmail.com | www.manu98.info | "
+address_div.innerText = "Kakinada India | +91 8555808886 | manoharkandadai98@gmail.com | www.manu98.info | "
 
 container.appendChild(address_div)
 
