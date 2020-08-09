@@ -52,6 +52,11 @@ first_column.setAttribute('style','flex:50%;border-right:2px solid black;')
 let profile = document.createElement('div')
 profile.setAttribute('style','background-color:white;')
 
+// profile icon
+let profile_span = document.createElement('span')
+let profile_icon = document.createElement('img')
+profile_icon.setAttribute('src', 'profile.png')
+profile_icon.setAttribute('style','width:50px;height:50px;margin-left:60px;')
 
 
 // profile header
@@ -66,6 +71,7 @@ profile_header.innerText = "Profile"
  profile_content.innerText = "I am a full stack developer with strong fundamentals of  JS with hands on experience on NodeJs, Bootstrap and MERN."
 
 
+ profile.appendChild(profile_icon)
 profile.appendChild(profile_header)
 profile.appendChild(profile_content)
 
