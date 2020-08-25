@@ -1,55 +1,169 @@
-body {
-    background: #1B1B25;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    position: relative;
+    display :inline-block;
+    width:60%;
+    margin-top:40px;
+    margin-bottom: 200px;
+    margin-left: 280px;
+    margin-right:100px;
+    background-color: rgb(68, 67, 67);  
+    
+}
+
+.top-container{
+    position: relative;
+    text-align: center;
+    height: 200px;
+}
+.top-container .image-profile{
+   margin-top:30px;
+   
+}
+.top-container .image-profile img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border :5px dotted yellow;
+}
+
+.top-container .name-profile{
+    font-size: 20px;
+    background-color: rgb(238, 137, 43);
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Alata', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+
+.short-info{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom:2px solid #CCCCCC;
+}
+.short-info p{
+    display: inline-block;
+    border-right: 2px solid black;
+    font-family: 'Merriweather', serif;
+    font-size:13px;
+    padding-right:10px;
+    margin-left: 0px;
+    
+}
+
+.bio-info{
+    content: "";
+    display: table;
+    clear: both;
+    background-color: whitesmoke;
+    padding:50px;
+    
+}
+.left-info{
+    float: left;
+    width: 40%;
+    margin:10px;
+    height: auto;
+    margin-left:30px;
+   
+}
+
+.vl {
+    border-left: 2px solid rgb(98, 100, 98);
+    float:left;
+    height: 1250px;
+    margin-top: 30px;
+    margin-left:40px;
+    margin-bottom:0px;
   }
-  
-  .separator {
-    width: 30%;
-  }
-  
-  .title {
-    margin-top: 100px;
-    margin-bottom: 10px;
+.right-info{
+    float:right;
+    width: 40%;
+    margin-top:10px;
+    height: auto;
+    padding-right:20px;
+}
+
+.profile-col,.skills-col{
+    margin-bottom: 50px;
+}
+
+.profile-img img, .skills-img img , .work-img img, .edu-img img{
+    width:40px;
+}
+
+.profile-img h2 , .skills-img h2 , .work-img h2, .edu-img h2{
+    position: relative;
+    margin-left:8px;
+    top:-15px;
+    display: inline-block;
+    padding-bottom:10px;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.profile-content{
+    font-family: 'Alata', sans-serif;
+}
+
+.skills-header ,.work-header, .edu-header{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+.skills-content{
+  width:auto;
+  height:auto;
+  font-family: 'Alata', sans-serif;
+}
+.skills-content div{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#js{
+    margin-top:30px;
+    margin-left:31px;
+}
+
+#html{
+    margin-left:88px;
+}
+#css{
+
+    margin-left:100px;
+}
+
+#react{
+    margin-left:62px;
+}
+
+#mdb{
+    margin-left: 43px;
+}
+
+
+.work-content ul li, .edu-content ul li {
+    margin-top: 10px;
+    margin-left:20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.edu-content p{
     
-    a {
-      color: #DB4D57;
-      
-      &:hover {
-        text-decoration: none;
-        font-weight: bold;
-      }
-    }
-    
-    hr {
-      width: 75%;
-    }
-  }
-  
-  .summary {
-    padding: 20px;
-    
-    p {
-      font-size: 1.6rem;
-      letter-spacing: .2rem;
-    }
-  }
-  
-  
-  .work-experience {
-    padding: 20px;
-    
-    .experience-title {
-      margin-top: 50px;
-    }
-    
-    .experience-summary {
-      margin-top: 30px;
-      margin-bottom: 50px;
-    }
-    
-    p {
-      font-size: 1.6rem;
-      letter-spacing: .2rem;
-    }
-  }
+    font-family: 'Alata', sans-serif;
+}
+
+.edu-col{
+    margin-top:30px;
+}
+
